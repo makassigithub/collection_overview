@@ -1,4 +1,4 @@
-package pack1;
+package collections;
 
 public class Class_C extends Class_A {
 	

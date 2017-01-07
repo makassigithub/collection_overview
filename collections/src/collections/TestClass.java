@@ -1,4 +1,4 @@
-package pack1;
+package collections;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -12,7 +12,7 @@ public class TestClass {
 	public static void main(String...args){
 		
 		// declare an empty collection of type Class_A;		
-		Collection <Class_A> cls;
+		List <Class_A> cls;
 		
 		// In this case we will an ArrayList
 		cls = new ArrayList<Class_A>();
