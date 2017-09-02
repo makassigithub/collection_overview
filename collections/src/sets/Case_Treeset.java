@@ -53,6 +53,7 @@ public static void main(String...args) {
    Iterator tSet_itr = tSet.iterator();
    while(tSet_itr.hasNext()){
 	// the next() returns an Object: Casting is needed, unless we specify the type parameter
+	//i.e Iterator<Integer> tSet_itr = tSet.iterator();  
 	   Integer i =(Integer) tSet_itr.next();
 	   System.out.print(" "+i);
    }

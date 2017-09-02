@@ -1,5 +1,6 @@
 package lists;
 
+
 // ArrayList implements AbstractList
 import java.util.ArrayList;
 
@@ -9,6 +10,7 @@ public class Case_ArrayList {
 		
 		// initialize new ArrayList of String	
 		ArrayList <String> aList = new ArrayList<String>();
+		
 		
 		// Add strings to the ArrayList
 		aList.add("I");
@@ -42,7 +44,7 @@ public class Case_ArrayList {
 		//Let's trim aList to the current size.
 		aList.trimToSize();
 		
-		//still aList can kepp growing
+		//still aList can keep growing
 		aList.add("ok!");
 		System.out.println("aLIst now contains: "+aList);
 		
@@ -63,7 +65,7 @@ public class Case_ArrayList {
 		for(String s : arr_str) System.out.println(s);
 		
 		//If the type of object in the ArrayList matters, the 2nd method is necessary
-		//otherwise the an explicit casting is needed
+		//otherwise an explicit casting is needed
 		
 		
 		

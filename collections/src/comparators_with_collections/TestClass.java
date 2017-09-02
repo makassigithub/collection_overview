@@ -6,7 +6,7 @@ public class TestClass {
 
 	public static void main(String...args){
 		
-//NB: we cannot operate on our cars if  use standart treeSet constructor i.e. new TreeSet<Car>()
+//NB: we cannot operate on our cars if  we use the standard treeSet constructor i.e. new TreeSet<Car>()
 // Because Car is a Custom Class and does not implements Comparator interface
 
 // get an instance of the Car_comparator to create the set

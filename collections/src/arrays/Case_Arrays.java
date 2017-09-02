@@ -1,6 +1,6 @@
 package arrays;
 
-// Let's create a simple method to dispya arrays
+// Let's create a simple method to display arrays
 
 import java.util.Arrays;
 import java.util.Spliterator;
@@ -19,7 +19,7 @@ int[] int_arr = new int[]{16,7,28,9,13,10};
 long [] long_arr = new long[]{25L,16L,37L,8L,9L,20L};
 short[] short_arr = new short[]{15,66,37,68,69,70};
 String[] str_arr = new String[]{"One","Two","Three","Four","Five"};//will be used for Objects
-//Will use the the car array to work with comaparotr
+//Will use the the car array to work with comparators
 Car[] car_arr = new Car[]{new Car("Toyota Rav4",12300),new Car("Nissan Almera",65000),new Car("Honda Civic",132000)};
 
 
@@ -54,9 +54,9 @@ System.out.println("\nSEARCHING FOR AN ELEMENT IN AN ARRAY WITH binarySearch()")
 
 //The binarySearch() search for an element and returns the index
 //It is useful when when the array is sorted
-System.out.println("Index of 'One' for long_arr unsorted: "+Arrays.binarySearch(long_arr,37L));
+System.out.println("Index of 37L for long_arr unsorted: "+Arrays.binarySearch(long_arr,37L));
 Arrays.sort(long_arr);
-System.out.println("Index of 'One' for long_arr sorted: "+Arrays.binarySearch(long_arr,37L));
+System.out.println("Index of 37L for long_arr sorted: "+Arrays.binarySearch(long_arr,37L));
 
 System.out.println("\nCOPYING AN ARRAY TO ANOTHER");
 short[] short_arr_copy1 = Arrays.copyOf(short_arr, 6);

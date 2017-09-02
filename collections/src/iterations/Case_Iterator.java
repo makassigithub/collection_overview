@@ -29,8 +29,9 @@ System.out.println("lhs is not empty: "+ itr.hasNext());
 
 //Cycle through the iterator and print the elements
 while(itr.hasNext()){
-	String st = itr.next();
-	System.out.print(st+" ");
+	//String st = itr.next();
+	//System.out.print(st+" ");
+	System.out.print(itr.next()+" ");
 }
 
 System.out.println();

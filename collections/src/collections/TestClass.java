@@ -165,7 +165,6 @@ public class TestClass {
 				List<Class_C> subL = arL_C.subList(0,3);
 				System.out.println("\nPrinting the subList");
 				System.out.println(subL);
-				
 		
 	}
 }

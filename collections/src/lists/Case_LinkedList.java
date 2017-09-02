@@ -16,7 +16,7 @@ public class Case_LinkedList {
 		lkd.add(3);
 		lkd.add(4);		
 		//Print lkd
-		System.out.println("lkd contanis: "+lkd);
+		System.out.println("lkd contains: "+lkd);
 		
 		//insert one element and print lkd again
 		lkd.add(1,2);
